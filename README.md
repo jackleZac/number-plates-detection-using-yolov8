@@ -132,6 +132,15 @@ yolo detect predict model=runs/detect/train/weights/best.pt source=path/to/image
 
 ---
 
+## Analysis
+### Valuation Batch - Labels
+![val_batch1_labels](https://github.com/user-attachments/assets/3a28dd00-739b-4b8c-8612-b3eddea8ebbd)
+
+### Valuation Batch - Prediction
+![val_batch1_pred](https://github.com/user-attachments/assets/6ed74524-90c4-40e0-9ebe-fdac7d90d6cd)
+
+---
+
 ## 📦 **Future Improvements**
 
 * Add license plate **OCR recognition**
