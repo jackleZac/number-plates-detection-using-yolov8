@@ -1,11 +1,11 @@
-# 🚗 Number Plate Detection using YOLOv8
+# Number Plate Detection using YOLOv8
 
 This project implements an **Automatic Number Plate Detection System** using **YOLOv8**, trained on a custom dataset of vehicle images and license plate annotations.
 It includes full data preprocessing, model training, validation, prediction, and result visualization.
 
 ---
 
-## 📌 **Project Overview**
+## **Project Overview**
 
 This project uses **Ultralytics YOLOv8** to detect number plates in real-world images.
 The workflow includes:
@@ -26,7 +26,7 @@ This project can be extended into:
 
 ---
 
-## 🗂️ **Project Structure**
+## **Project Structure**
 
 ```
 project/
@@ -37,7 +37,7 @@ project/
 
 ---
 
-## 🧠 **Model Training**
+## **Model Training**
 
 You trained YOLOv8 using:
 
@@ -69,7 +69,7 @@ runs/detect/train/
 
 ---
 
-## 🔍 **Validation + Sample Predictions**
+## **Validation + Sample Predictions**
 
 Your notebook includes:
 
@@ -88,7 +88,7 @@ You can also manually select any test image for prediction.
 
 ---
 
-## 🛠️ **Dependencies**
+## **Dependencies**
 
 Install YOLOv8:
 
@@ -104,7 +104,7 @@ pip install numpy matplotlib opencv-python
 
 ---
 
-## 🎯 **Features**
+## **Features**
 
 * Custom YOLOv8 training
 * Fast inference on unseen images
@@ -114,7 +114,7 @@ pip install numpy matplotlib opencv-python
 
 ---
 
-## 🚀 **How to Run**
+## **How to Run**
 
 1. Clone the repository
 2. Ensure the dataset is linked in `dataset.yaml`
@@ -141,7 +141,7 @@ yolo detect predict model=runs/detect/train/weights/best.pt source=path/to/image
 
 ---
 
-## 📦 **Future Improvements**
+## **Future Improvements**
 
 * Add license plate **OCR recognition**
 * Convert into a **Streamlit or FastAPI** web app
@@ -150,8 +150,8 @@ yolo detect predict model=runs/detect/train/weights/best.pt source=path/to/image
 
 ---
 
-## 🏆 **Author**
+## **Author**
 https://github.com/jackleZac
 
-## Note
-Download the following dataset from Kaggle: https://www.kaggle.com/datasets/fareselmenshawii/license-plate-dataset
+## Attribution
+The dataset is downloaded from Kaggle: https://www.kaggle.com/datasets/fareselmenshawii/license-plate-dataset
